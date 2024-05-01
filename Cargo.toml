@@ -9,5 +9,5 @@ homepage = "https://github.com/zkat/chownr-rs"
 edition = "2018"
 
 [dependencies]
-nix = "0.14.0"
-anyhow = "1.0.16"
+nix = { version = "0.28.0", features = ["user", "fs"] }
+anyhow = "1.0.82"
